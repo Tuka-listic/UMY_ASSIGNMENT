@@ -1,0 +1,170 @@
+body{
+    font-style:normal;
+    background-color: white;
+}
+
+
+nav.topnav{
+        overflow: hidden;
+        background-color:#e9e9e9;
+        flex-direction:column;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+}
+
+.topnav a {
+    float: none;
+    display: block;
+    color: black;
+    text-align: justify;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 17px; 
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.topnav a, .topnav input[type=text] {
+    float: none;
+    display: flex;
+    text-align:justify;
+    width: 25%;
+    margin: 0;
+    align-items: stretch;
+
+  }
+  .topnav input[type=text] {
+    border: 2px solid #ccc;
+  }
+.udemy header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+
+}
+.intro-image{
+    display:block;
+    margin: none;
+    position: relative;
+    width:100%
+    height fit-content
+}
+
+.a {
+    text-decoration: none;
+    list-style-type: none;
+    flex-direction:column;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: content;
+}
+ ul.navigation li button {
+        display: flex;
+        color: black;
+        background-color: white;
+        padding: 0px;
+        border: 30px;
+        border-radius: 5px;
+        outline-color: black;
+        outline:auto
+        list-style-type none;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+ul.navigation{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+    
+#container{
+    text-align: justify;
+}
+
+ul.career container{
+    display:flex; 
+    gap: 30px;
+    list-style: none;
+    margin-right: 50%;
+    padding-inline: 20px;
+    
+}
+
+
+
+div.introduction courses{
+    display: flex;
+    width: 100px;  
+    margin: 200px;
+    flex-direction: column;
+    padding-right: 50px;
+
+}
+
+div.optional_courses{
+    display:block;
+    padding-right: 200px;
+    width: 100%;
+}
+
+.python-careers{
+    border-color:black;
+    border-style: solids;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  div.image-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column; 
+    display:block;
+    float: left;
+    width: 25%;
+  }
+
+  div.python-career{
+    font: 17;
+    display: flex;
+    border: 5px solid black;
+
+
+  }
+  .a button{
+    width: 50%;
+    background-color: #e9e9e9;
+    
+  }
